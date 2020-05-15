@@ -3,12 +3,7 @@ pipeline {
     tools {
         git 'Default' 
     }
-    stages {
-        stage('clone the repo') {
-            steps {
-                git "https://github.com/priyanka259/SpringBootOnDocker.git" 
-            }
-        }
+    stages {        
         stage('Build') {
             steps {
                 sh "./mvnw clean install"
