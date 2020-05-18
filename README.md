@@ -18,7 +18,7 @@ NOTE: if any of the below commands fail with the permission denied error in Linu
 
 		$ ./gradlew build && java -jar build/libs/gs-spring-boot-docker-0.1.0.jar
 
-- Nevigate to http://localhost:8080[localhost:8080] to see your "Hello Docker World" message.
+- Navigate to http://localhost:8080[localhost:8080] to see your "Hello Docker World" message.
 
 
 - To Containerize the Hello World Application (Refer the Dockerfile for details) run the cmds below which will build a Docker image in the name mydocker/spring-boot-docker:latest
