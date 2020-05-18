@@ -36,7 +36,7 @@ NOTE: if any of the below commands fail with the permission denied error in Linu
 	
 		$ docker run -p 8081:8080 -t mydocker/spring-boot-docker
 
-- Nevigate to http://localhost:8081[localhost:8081] to see your "Hello Docker World" message.
+- Navigate to http://localhost:8081[localhost:8081] to see your "Hello Docker World" message.
 
 - Here 8081 is the Docker port and 8080 is the Tomcat port where is Spring Boot Application is 	running. 
 
