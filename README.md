@@ -21,7 +21,7 @@ NOTE: if any of the below commands fail with the permission denied error in Linu
 - Navigate to http://localhost:8080[localhost:8080] to see your "Hello Docker World" message.
 
 
-- To containerize the Hello World Application (Refer the Dockerfile for details) run the cmds below which will build a Docker image in the name mydocker/spring-boot-docker:latest
+- To containerize the hello World Application (Refer the Dockerfile for details) run the cmds below which will build a Docker image in the name mydocker/spring-boot-docker:latest
 
 - if you are using maven, execute the below cmd - 
 
